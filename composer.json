@@ -1,0 +1,24 @@
+{
+    "name": "autumn/phpspider",
+    "description": "兼容php DOMDomment扩展报警告信息错误",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "郭家豪",
+            "email": "13835610017@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "suggest": {
+        "ext-pcntl、ext-redis": "For better performance. "
+    },
+    "autoload": {
+        "psr-4": {
+            "Guanguans\\": "src/"
+        }
+    }
+}
