@@ -92,6 +92,7 @@ class selector
     {
         if (!is_object(self::$dom))
         {
+            libxml_use_internal_errors(true);
             self::$dom = new DOMDocument();
         }
 
